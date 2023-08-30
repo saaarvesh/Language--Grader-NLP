@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGIN PAGE</title>
+        <link rel="stylesheet" href="./loginCss.css">
+        <link rel="stylesheet"
+        href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <style>
+            body{
+    background-image: url("./assets/images/login-background.png");
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     color:black;
+ }
+        </style>
+
+    </head>
+    <body>
+            <br><br>
+            <h2 style="text-align: center; color:darksalmon"><strong>LANGUAGE GRADER</strong></h2>
+            <br>
+            <!-- <p style="color:cyan; text-align: center; font-size:25px;">This is the first login page <br>created for learning.</p> -->
+            <form>
+                <div class="myform">
+                    <br><br>
+                    <div class="form">
+                        <img src="./assets/images/logo.png" height="150px" width="150px"><br><br>
+                        <label><b>User Name</b></label><br>
+                        <div class="input-icons">
+                            <i class="fa fa-user icon"> 
+                            </i>
+                            <input type="text" class="input-field" 
+                            placeholder="Enter user name" title="Enter in block">
+                        </div>
+                        
+                        <label><b>Email</b></label>
+                        <div class="input-icons">
+                            <i class="fa fa-envelope icon"> 
+                            </i> 
+                            <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter Email" class="input-field" required>
+                        </div>
+                        <label><b>Password</b></label><br>
+                        <div class="input-icons"> 
+                            <i class="fa fa-key icon"> 
+                          </i> 
+                         <input type="password" class="input-field" placeholder="Enter password" title="Enter valid Password"><br>
+                        </div>
+                        <a href="#" class="button1"><p style="font-size:15px">Forgot Password ?</p></a>
+                        <input type="checkbox" class="button1"><label style="color: blanchedalmond">Remember  Me</label>
+                        
+                        <br><br>
+                        <button type="submit" class="btn btn-primary" onclick='alert("Your Response has been submitted")'>Login</button>
+                        <br><br>
+                        <button type="button" class="button2">Create New Account</button>
+                        <!-- <p style="color:white">Already have an account?<a href="#"> Sign In</a></p> -->
+                    </div>           
+                </div>
+            </form>
+            <div class="input-icons" style="color: crimson;">
+                <p><b>Support</b></p>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Contact Us</a><br>
+                    <a href="#">Terms And Conditions</a><br>
+                <p><b>Community</b></p>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp; Facebook</a><br>
+                <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Instagram</a><br>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Linkedln</a><br>
+             </div>
+    </body>
+</html>
