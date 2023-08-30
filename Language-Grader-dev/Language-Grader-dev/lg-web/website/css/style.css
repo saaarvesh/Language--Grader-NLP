@@ -1,0 +1,108 @@
+.bgimg{
+    background-image:url('../img/background.jpg');
+    background-size:100% 100%;
+    background-attachment:fixed;
+    width:100%;
+    height:660px;
+}
+
+.headerset
+{
+    padding-top:230px;
+    box-sizing:border-box;
+}
+
+.headerset h2{
+    font-size:32px;
+}
+/* .bgcol{
+    background-color:orange;
+    background-size:50px 50px;
+} */
+.headerset h1{
+    font-size:62px;
+}
+
+.ourservices{
+    padding:100px 0px 60px;
+    height:700px;
+}
+
+.ourservices p{
+    font-size:22px;
+}
+
+.ourservices h1{
+    font-weight:bold;
+    font-size:50px;
+    color:orange;
+}
+
+.rowsetting{
+    margin:80px 0px !important;
+}
+
+.rowsetting h2{
+    color:orange;
+    margin-top:24px;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.rowsetting p{
+    padding:10px;
+    color:#6c757d;
+}
+
+.ourteam{
+    height:700px;
+    padding:100px 0px 60px;
+    width:100%;
+}
+
+.ourteam h1{
+    font-weight:bold;
+    font-size:50px;
+    color:orange;
+}
+
+.teamsetting{
+    margin-top:50px;
+}
+
+.footer
+{
+    height:250px;
+}
+
+.footer h6{
+    line-height:250px;
+}
+
+/*////////////Responsive////////
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+    
+}
+
+@media(min-width:575px) and (max-width:767px){
+    
+}
+
+@media(min-width:480px) and (max-width:574px){
+    
+}
+
+@media(max-width:479px){
+   .headerset h2{
+    font-size:12px;
+}
+
+.headerset h1{
+    font-size:32px;
+} 
+}*/
